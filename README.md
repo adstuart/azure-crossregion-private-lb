@@ -1,6 +1,6 @@
 # Cross-region private network load balancing in Azure
 
-#Contents
+# Contents
 
 - [Introduction](#introduction)
 - [Option 1 – Code the complexity](#option-1---code-the-complexity)
