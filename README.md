@@ -35,17 +35,17 @@ Azure supports Network Virtual Appliances (NVA) from most popular vendors, inclu
 
 # Option 3 - Azure Traffic Manager
 
-Warning, I do not recommend this option!
+*Warning, I do not recommend this option!*
 
 You may have seen this article floating around forums etc https://docs.microsoft.com/en-us/archive/blogs/mihansen/using-azure-traffic-manager-for-private-endpoint-failover-manual-method
 
-In short, you can use manual failover with Traffic Manager to return Private Ips via the public resolver. I don’t like this for several reasons. 
+In short, you can use manual failover with Traffic Manager to return Private IPs (A records) via the public resolver. However, this is undesirable for several reasons. 
 
--	Its manual, 
--	Your private A records are resolvable publicly. 
+-	Failover is a manual process
+-	Your private A records are resolvable publicly
 -	You still need to send the DNS query over the Internet, so you still need public connectivity, lots of folks reading this will be designing for “off grid” deployments. I.e., internal stuff only, no internet
 
-But still, if you are in a pinch, it is technically possible.
+But still, if you are in a pinch, it is *technically* possible.
 
 # Option 4 - Azure Front Door
 
