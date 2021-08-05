@@ -64,6 +64,8 @@ Depending on the failover/failure scenario you are trying to cater for, this top
 
 Application Gateway (APGW) is a full HTTP/S reverse proxy managed by Microsoft that lives in your VNet. The latter point “*in your VNet*” being the key point for this option. APGW is pinned to a VNet and therefore a region, and supports full use of Availability Zones now, https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-autoscaling-zone-redundant
 
+> Note. APGW only works for traffic flows using HTTP/S.
+
 You can combine this with Global VNet peering, to build a backend pool that comprises of endpoints in multiple regions. The caveat here of course, is that you need the region to be online for your solution to work, therefore you are only catering for load distribution as well as failure scenarios that involve your backend failing. If a region fails, you need to manually swing your DNS to point at a APGW instance in region B. This, however, may be a perfectly acceptable part of your Disaster Recovery runbook, but your mileage may vary, depending on your requirements, RPO, RTO etc
 
 ![3](images/3.png)
