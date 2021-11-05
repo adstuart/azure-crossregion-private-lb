@@ -9,6 +9,7 @@
 - [Option 4 - Azure Front Door](#option-4---azure-front-door)
 - [Option 5 - Azure Load Balancer](#option-5---azure-load-balancer)
 - [Option 6 - Application Gateway](#option-6---application-gateway)
+- [Option 7 (new!) Azure Route Server, Anycast with NVA])#option-7---azure-route-server-anycast)
 - [Closing](#closing)
 
 # Introduction
@@ -69,6 +70,10 @@ Application Gateway (APGW) is a full HTTP/S reverse proxy managed by Microsoft t
 You can combine this with Global VNet peering, to build a backend pool that comprises of endpoints in multiple regions. The caveat here of course, is that you need the region to be online for your solution to work, therefore you are only catering for load distribution as well as failure scenarios that involve your backend failing. If a region fails, you need to manually swing your DNS to point at a APGW instance in region B. This, however, may be a perfectly acceptable part of your Disaster Recovery runbook, but your mileage may vary, depending on your requirements, RPO, RTO etc
 
 ![3](images/3.png)
+
+# Option 7 - Azure Route Server Anycast
+
+Please see https://github.com/adstuart/azure-routeserver-anycast
 
 # Closing
 
