@@ -9,7 +9,7 @@
 - [Option 4 - Azure Front Door](#option-4---azure-front-door)
 - [Option 5 - Azure Load Balancer](#option-5---azure-load-balancer)
 - [Option 6 - Application Gateway](#option-6---application-gateway)
-- [Option 7 (new!) Azure Route Server, Anycast with NVA])#option-7---azure-route-server-anycast)
+- [Option 7 (new!) Azure Route Server, Anycast with NVA](#option-7---azure-route-server-anycast)
 - [Closing](#closing)
 
 # Introduction
