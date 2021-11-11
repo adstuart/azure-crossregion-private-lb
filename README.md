@@ -9,7 +9,8 @@
 - [Option 4 - Azure Front Door](#option-4---azure-front-door)
 - [Option 5 - Azure Load Balancer](#option-5---azure-load-balancer)
 - [Option 6 - Application Gateway](#option-6---application-gateway)
-- [Option 7 (new!) Azure Route Server, Anycast with NVA](#option-7---azure-route-server-anycast)
+- [Option 7a (new!) Azure Route Server, Anycast with NVA](#option-7---azure-route-server-anycast)
+- [Option 7b (new!) Azure Virtual WAN BGP Hub Peering, Anycast with NVA](#option-7---vwan-hub-bgp-peering)
 - [Closing](#closing)
 
 # Introduction
@@ -71,9 +72,13 @@ You can combine this with Global VNet peering, to build a backend pool that comp
 
 ![3](images/3.png)
 
-# Option 7 - Azure Route Server Anycast
+# Option 7a - Azure Route Server Anycast
 
 Please see https://github.com/adstuart/azure-routeserver-anycast
+
+# Option 7b - VWAN Hub BGP Peering
+
+Please see https://github.com/adstuart/azure-vwan-anycast
 
 # Closing
 
