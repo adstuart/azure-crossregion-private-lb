@@ -58,7 +58,7 @@ Spoiler, this isn’t an option today! However, it’s worth calling out a point
 Ok this is another option that is **not really an option**, sorry. But I’m including it to clarify an existing product offering and show you where to request an enhancement. Azure Load Balancer does support, in preview, cross-region load balancer which is super awesome. https://docs.microsoft.com/en-us/azure/load-balancer/cross-region-overview. However, in its current form, we only support a *public* global front end IP. https://docs.microsoft.com/en-us/azure/load-balancer/cross-region-overview
 
 If you want this feature expanded to include *private* global front end IPs, add your feedback here! 
-https://feedback.azure.com/forums/217313-networking/suggestions/41857570-support-ilb-for-cross-region-lb-global-private-l
+https://feedback.azure.com/d365community/idea/4210a924-8a26-ec11-b6e6-000d3a4f0789
 
 # Option 6 - Application Gateway
 
