@@ -72,6 +72,10 @@ You can combine this with Global VNet peering, to build a backend pool that comp
 
 ![3](images/3.png)
 
+## Option 6b - Azure API Management (APIM)
+
+The same comments as option 6 with AppGW, but using APIM instead https://learn.microsoft.com/en-us/azure/api-management/virtual-network-concepts?tabs=stv2, depending on your workload type/use case
+
 # Option 7a - Azure Route Server Anycast
 
 Please see https://github.com/adstuart/azure-routeserver-anycast
